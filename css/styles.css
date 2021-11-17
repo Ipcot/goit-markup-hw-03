@@ -89,7 +89,7 @@ img {
 }
 .header-mail,
 .header-phone,
-.header-item {
+.header-link {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -177,6 +177,9 @@ img {
   padding-bottom: 94px;
 }
 
+.principles-li-container {
+  flex-basis: 270px;
+}
 .principles-li-container + .principles-li-container {
   margin-left: 30px;
 }
@@ -303,6 +306,7 @@ img {
 }
 .footer-mail,
 .footer-phone {
+  display: block;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -320,7 +324,7 @@ img {
 }
 
 /* -----------------Portfolio--------------------------------------------- */
-.our-works-container {
+.our-works {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -328,7 +332,6 @@ img {
 .our-works-btn-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
 }
 
 .our-works-btn-item + .our-works-btn-item {
@@ -336,7 +339,7 @@ img {
 }
 
 .our-works-btn-item {
-  padding-bottom: 16px;
+  margin-bottom: 50px;
 }
 
 .our-works-filter {
